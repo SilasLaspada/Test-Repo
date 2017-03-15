@@ -1,0 +1,1 @@
+int TimeTwo(int x);
