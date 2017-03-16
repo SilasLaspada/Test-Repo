@@ -3,8 +3,9 @@
 int main()
 {
 	int FavNumber = 42;
-	printf("Before : %d\n", FavNumber);
 	int TwoNumber = TimeTwo(FavNumber);
-	printf("After : %d", TwoNumber);
+	if (TwoNumber == 84) {
+		printf("Hello World!");
+	}
 	return 0;
 }
